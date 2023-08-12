@@ -2,11 +2,24 @@
 # coding: utf-8
 
 # In[1]:
+import subprocess
+
+# Install matplotlib and seaborn using pip
+packages_to_install = ['matplotlib', 'seaborn']
+
+for package in packages_to_install:
+    subprocess.check_call(['pip', 'install', package])
+
+# After installation, import the packages
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
 
 
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+
 
 
 # In[2]:
