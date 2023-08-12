@@ -12,7 +12,7 @@ for package in packages_to_install:
 
 # After installation, import the packages
 import matplotlib.pyplot as plt
-
+import seaborn as sns
 #
 
 
@@ -58,7 +58,7 @@ missing_percentage
 # In[7]:
 
 
-import seaborn as sns
+
 
 
 # In[8]:
