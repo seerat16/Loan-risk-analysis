@@ -59,6 +59,8 @@ missing_percentage
 
 
 import seaborn as sns
+path\to\venv\Scripts\activate
+
 
 
 # In[8]:
